@@ -1,0 +1,29 @@
+{
+  "name": "lab-jr",
+  "version": "1.0.0",
+  "description": "ngAdventure",
+  "main": "entry.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start --run-once",
+    "build": "webpack",
+    "watch": "webpack-dev-server",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurrish/lab-24-ng-adventure.git"
+  },
+  "author": "JR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jurrish/lab-24-ng-adventure/issues"
+  },
+  "homepage": "https://github.com/jurrish/lab-24-ng-adventure#readme",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "webpack": "^2.2.1"
+  }
+}
