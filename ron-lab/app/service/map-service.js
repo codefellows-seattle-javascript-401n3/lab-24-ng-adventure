@@ -52,7 +52,7 @@ function mapService($log) {
       south: "SouthernCalifornia"
     },
     Nevada: {
-      desc: "Welcome to Nevada, remember what happens in Vegas, stays in Vegas",
+      desc: "Welcome to Nevada, remember what happens in Vegas stays in Vegas",
       west: "NorthernCalifornia",
       south: "SouthernCalifornia",
       east: "Utah",
@@ -73,7 +73,8 @@ function mapService($log) {
       desc: "Welcome to Utah, the Beehive State.",
       south: "Arizona",
       north: "SouthernIdaho",
-      west: "Nevada"
+      west: "Nevada",
+      east: "Colorado"
     },
     NewMexico: {
       desc: "Welcome to New Mexico the land of enchantment",

@@ -2,8 +2,10 @@ main {
   min-height: 800px;
   width: 80%;
   margin: 5% 10%;
+  border-radius: $border-radius;
 }
 
 section {
   margin: 5% 0;
+  border-radius: $border-radius;
 }

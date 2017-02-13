@@ -23,6 +23,7 @@
     "file-loader": "^0.9.0",
     "html-loader": "^0.4.4",
     "html-webpack-plugin": "^2.26.0",
+    "karma-mocha-reporter": "^2.2.2",
     "node-sass": "^4.3.0",
     "resolve-url-loader": "^1.6.1",
     "sass-loader": "^4.1.1",
@@ -31,13 +32,12 @@
     "webpack": "^1.14.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "^1.16.2",
+    "webpack-dev-server": "^1.16.3",
     "angular-mocks": "^1.6.1",
     "jasmine-core": "^2.5.2",
     "karma": "^1.4.0",
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.2",
-    "karma-webpack": "^2.0.1",
-    "webpack-dev-server": "^1.16.3"
+    "karma-webpack": "^2.0.1"
   }
 }
