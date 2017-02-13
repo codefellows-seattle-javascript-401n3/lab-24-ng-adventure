@@ -19,7 +19,7 @@ function mapService($log) {
     Oregon: {
       desc: "Welocome to the Beaver State, visit Portland The City of Roses.",
       north: "Washington",
-      east: "Southern Idaho",
+      east: "SouthernIdaho",
       south: "NorthernCalifornia"
     },
     NorthernIdaho: {
