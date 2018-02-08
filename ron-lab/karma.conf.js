@@ -1,5 +1,5 @@
 const webpackConfig = require('./webpack.config.js');
-webpackConfig.entry = {};
+delete webpackConfig.entry
 
 module.exports = function(config) {
   config.set({
@@ -14,7 +14,7 @@ module.exports = function(config) {
     preprocessors: {
       'test/**/*-test.js': ['webpack'],
     },
-    reporters: ['progress'],
+    reporters: ['mocha'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,

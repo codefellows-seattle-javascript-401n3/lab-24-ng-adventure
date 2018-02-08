@@ -17,9 +17,9 @@ function mapService($log) {
       south: "Oregon"
     },
     Oregon: {
-      desc: "Welocome to the Beaver State, visit Portland The City of Roses.",
+      desc: "Welcome to the Beaver State, visit Portland The City of Roses.",
       north: "Washington",
-      east: "Southern Idaho",
+      east: "SouthernIdaho",
       south: "NorthernCalifornia"
     },
     NorthernIdaho: {
@@ -52,7 +52,7 @@ function mapService($log) {
       south: "SouthernCalifornia"
     },
     Nevada: {
-      desc: "Welcome to Nevada, remember what happens in Vegas, stays in Vegas",
+      desc: "Welcome to Nevada, remember what happens in Vegas stays in Vegas",
       west: "NorthernCalifornia",
       south: "SouthernCalifornia",
       east: "Utah",
@@ -73,7 +73,8 @@ function mapService($log) {
       desc: "Welcome to Utah, the Beehive State.",
       south: "Arizona",
       north: "SouthernIdaho",
-      west: "Nevada"
+      west: "Nevada",
+      east: "Colorado"
     },
     NewMexico: {
       desc: "Welcome to New Mexico the land of enchantment",
